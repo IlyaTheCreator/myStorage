@@ -1,0 +1,239 @@
+#header {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+#header h1 {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 2.6em;
+  font-weight: lighter;
+  margin-bottom: 25px;
+}
+
+#header p {
+  width: 60%;
+  margin: 0 auto;
+  color: rgba(29, 31, 46, 0.7);
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+
+/* feature */
+
+#feature {
+  margin-bottom: 80px;
+  display: flex;
+}
+
+#feature a {
+  align-self: center;
+  color: rgba(29, 31, 46, 0.7);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+}
+
+/* #two */
+
+#two {
+  margin-bottom: 100px;
+}
+
+#two .row {
+  display: flex;
+  width: 95%;
+  height: 100%;
+}
+
+#two .row .col {
+  height: 630px;
+  flex: 0 0 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#two .row .col .img {
+  flex: 0 0 100%;
+  height: 36%;
+}
+
+#two .row .col .img1 {
+  background-image: url("../img/office1.jpg");
+  background-size: cover;
+}
+
+#two .row .col .img2 {
+  background-image: url("../img/office2.jpg");
+  background-size: cover;
+  background-position-y: 40%;
+}
+
+#two .row .col .text {
+  flex: 0 0 100%;
+  height: 64%;
+  text-align: center;
+}
+
+.label,
+#two .row .col .text p {
+  color: rgba(29, 31, 46, 0.7);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+  margin: 40px 0 17px 0;
+}
+
+#two .row .col .text p {
+  text-transform: capitalize;
+  margin: 10px;
+  letter-spacing: 0;
+  font-size: 1em;
+}
+
+#two .row .col .text .location {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+/* contact */
+
+#contact {
+  border: 2px solid rgba(210, 210, 213, 0.5);
+  margin: 0 30px;
+}
+
+#contact .row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+/* form is a flex element (probably because of main.css) */
+
+#contact .row form {
+  padding: 30px 80px;
+  flex: 0 0 60%;
+  flex-wrap: wrap;
+}
+
+#contact .row form .label {
+  flex: 0 0 100%;
+  margin: 30px 0;
+}
+
+#contact .row form input,
+#contact .row form textarea {
+  padding: 20px 10px;
+  height: 60px;
+  flex: 0 0 100%;
+  background-color: #fff;
+  color: #000;
+  font-size: 1em;
+  border: 1px solid rgba(210, 210, 213, 0.8);
+}
+
+#contact .row form textarea {
+  height: 130px;
+  resize: none;
+  font-size: 1.5em;
+}
+
+#contact .row form input:placeholder-shown,
+#contact .row form textarea:placeholder-shown {
+  text-transform: uppercase;
+  color: rgba(29, 31, 46, 0.7);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.7em;
+  letter-spacing: 0.1em;
+}
+
+#contact .row form textarea:placeholder-shown {
+  font-size: 1em;
+}
+
+#contact .row form p {
+  text-align: left;
+  flex: 0 0 100%;
+  font-size: 1.5em;
+}
+
+#contact .row form .upbtn {
+  flex: 0 0 100%;
+  margin: 20px 0;
+}
+
+#contact .row form .button {
+  display: inline-block;
+  width: 30%;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bolder;
+  background-color: rgba(29, 31, 46, 0.8);
+  font-size: 0.7em;
+  padding: 20px 10px;
+  letter-spacing: 1.7px;
+}
+
+#contact .row .right {
+  flex: 0 0 30%;
+}
+
+#contact .row .right .logo p {
+  font-size: 0.8em;
+  margin-bottom: 30px;
+}
+
+#contact .row .right p {
+  color: rgba(29, 31, 46, 0.7);
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  margin: 10px 0;
+}
+
+#contact .row .right .phone,
+#contact .row .right .email {
+  color: #000;
+  transition: 200ms color linear;
+}
+
+#contact .row .right .email:hover {
+  color: orange;
+}
+
+/* directories */
+
+#dir {
+  margin: 0 30px;
+}
+
+#dir .row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+#dir .row .col {
+  flex: 0 0 33%;
+  text-align: center;
+}
+
+#dir .row .col p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+#dir .row .col .phone,
+#dir .row .col .email {
+  color: rgba(29, 31, 46, 0.7);
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 1em;
+  margin: 10px 0;
+}

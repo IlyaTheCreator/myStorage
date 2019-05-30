@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.box {
+    min-width: 300px;
+    min-height: 200px;
+    border: 4px solid #222;
+    background: rgba(0, 0, 0, 1);
+    border-radius: 6%;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s all ease-in;
+}
+
+.popping {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 500px;
+    width: 500px;
+    background: #dddab3;
+
+    transform: translate(100%, 70%) rotate(30deg);
+    transition: 3s all ease-in;
+}
+
+.box:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.box:hover .popping {
+    transform: translate(0%, 0%) rotate(80deg);
+    
+}

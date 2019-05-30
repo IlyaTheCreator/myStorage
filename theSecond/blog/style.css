@@ -1,0 +1,362 @@
+#header {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+#header h1 {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 2.6em;
+  font-weight: lighter;
+  margin-bottom: 25px;
+}
+
+#header p {
+  width: 60%;
+  margin: 0 auto;
+  color: rgba(29, 31, 46, 0.7);
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+
+#feature {
+  margin-bottom: 80px;
+  display: flex;
+}
+
+#feature a {
+  align-self: center;
+  color: rgba(29, 31, 46, 0.7);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+}
+
+/* two */
+
+#two {
+  height: 590px;
+}
+
+#two .row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#two .row .col {
+  flex: 0 0 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#two .row .col .img {
+  flex: 0 0 100%;
+  height: 70%;
+}
+
+#two .row .col .img1 {
+  background-image: url("../img/bar2.jpg");
+  background-size: cover;
+  background-position-y: 50%;
+}
+
+#two .row .col .img2 {
+  background-image: url("../img/bar1.jpg");
+  background-size: cover;
+}
+
+#two .row .col .text {
+  flex: 0 0 100%;
+  height: 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#two .row .col .text h3 {
+  color: #000;
+  font-weight: lighter;
+  font-size: 1.7em;
+  flex: 0 0 100%;
+  margin-top: 20px;
+}
+
+#two .row .col .text p {
+  color: rgba(29, 31, 46, 0.7);
+  font-size: 1.1em;
+  flex: 0 0 100%;
+  line-height: 1.5em;
+}
+
+.date {
+  color: rgba(29, 31, 46, 0.7);
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+  flex: 0 0 100%;
+}
+
+/* BLOG */
+
+#blog {
+  height: 1800px;
+  margin: 100px 15px 100px 15px;
+  display: flex;
+  flex-direction: row;
+  background-color: #f2ffff;
+}
+
+/*          left-col */
+
+/*          left-col title */
+.left-col {
+  height: 100%;
+  flex: 0 0 70%;
+}
+
+.left-col .title {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.left-col .title h2 {
+  align-self: center;
+  flex: 0 0 100%;
+  text-align: left;
+  padding-left: 20px;
+  font-weight: lighter;
+  font-size: 1.8em;
+}
+
+/*          left-col content */
+
+.left-col .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  align-content: flex-start;
+}
+
+.left-col .wrapper .col {
+  flex: 0 0 98%;
+  height: 17%;
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-around;
+}
+
+.left-col .wrapper .col .img {
+  flex: 0 0 45%;
+}
+
+/*          images */
+
+.left-col .wrapper .col .img1 {
+  background-image: url("../img/coffee1.jpeg");
+  background-size: cover;
+  height: 85%;
+}
+
+.left-col .wrapper .col .img2 {
+  background-image: url("../img/coffee2.jpeg");
+  background-size: cover;
+  height: 85%;
+}
+
+.left-col .wrapper .col .img3 {
+  background-image: url("../img/bar2.jpg");
+  background-position-y: 45%;
+  background-size: cover;
+  height: 85%;
+}
+
+.left-col .wrapper .col .img4 {
+  background-image: url("../img/coffee7.jpg");
+  background-size: cover;
+  height: 85%;
+}
+
+.left-col .wrapper .col .img5 {
+  background-image: url("../img/coffee9.jpg");
+  background-position-x: 40%;
+  background-size: cover;
+  height: 85%;
+}
+
+/*              text */
+
+.left-col .wrapper .col .text {
+  flex: 0 0 40%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.left-col .wrapper .col .text h3 {
+  font-size: 1.5em;
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+}
+
+.left-col .wrapper .col .text p {
+  font-size: 1.02em;
+  line-height: 1.4em;
+  color: rgba(29, 31, 46, 0.7);
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+}
+
+/*          right-col */
+
+.right-col {
+  height: 100%;
+  flex: 0 0 30%;
+}
+
+.right-col .title {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.right-col .title h2 {
+  align-self: center;
+  flex: 0 0 100%;
+  text-align: left;
+  padding-left: 20px;
+  font-weight: lighter;
+  font-size: 1.8em;
+}
+
+.right-col .wrapper {
+  height: 1650px;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.right-col .wrapper .col1 {
+  flex: 0 0 30%;
+  margin-bottom: 60px;
+}
+
+.right-col .wrapper .col1 h3,
+.right-col .wrapper .col2 h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.right-col .wrapper .col1 p {
+  font-size: 1.02em;
+  line-height: 1.4em;
+  color: rgba(29, 31, 46, 0.7);
+  margin-bottom: 20px;
+}
+
+.right-col .wrapper .col1 a {
+  color: #a25f4b;
+  font-size: 1.1em;
+  text-decoration: none;
+  border-bottom: 1px solid #f2ffff;
+  transition: 200ms all linear;
+}
+
+.right-col .wrapper .col1 a:hover {
+  border-bottom-color: #a25f4b;
+}
+
+.right-col .wrapper .col2 {
+  flex: 0 0 100%;
+  margin-bottom: 100px;
+}
+
+.right-col .wrapper .col2 h3 {
+  font-weight: lighter;
+}
+
+.right-col .wrapper .col2 .categories .col {
+  font-size: 1.1em;
+  line-height: 1.4em;
+  color: rgba(12, 12, 17, 0.7);
+  padding: 15px 0 15px 20px;
+  margin-bottom: 15px;
+  border-left: 2px solid rgba(162, 95, 75, 0.5);
+  transition: 200ms all linear;
+}
+
+.right-col .wrapper .col2 .categories .col:hover,
+.right-col .wrapper .col2 .authors .col:hover {
+  border-left-color: rgba(162, 95, 75, 1);
+}
+
+.right-col .wrapper .col2 h3 {
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+
+.right-col .wrapper .col2 .authors .col {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-left: 2px solid rgba(162, 95, 75, 0.5);
+  transition: 200ms all linear;
+  margin-bottom: 15px;
+}
+
+.right-col .wrapper .col2 .authors .col .img {
+  flex: 0 0 25%;
+  height: 80px;
+}
+
+.right-col .wrapper .col2 .authors .col .img1 {
+  background-image: url("../img/people2.jpg");
+  background-size: cover;
+}
+
+.right-col .wrapper .col2 .authors .col .img2 {
+  background-image: url("../img/people1.jpg");
+  background-size: cover;
+}
+
+.right-col .wrapper .col2 .authors .col .img3 {
+  background-image: url("../img/people3.jpg");
+  background-size: cover;
+}
+
+.right-col .wrapper .col2 .authors .col div {
+  display: flex;
+  flex: 0 0 25%;
+  font-size: 1.02em;
+  line-height: 1.4em;
+  color: rgba(29, 31, 46, 0.7);
+  display: flex;
+}
+
+.right-col .wrapper .col2 .authors .col div p {
+  align-self: center;
+}
+
+/* quote */
+
+#quote {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+#quote p {
+  align-self: center;
+  text-align: center;
+  font-size: 1.55em;
+  color: #a25f4b;
+  padding: 50px 0 50px 0;
+  flex: 0 0 85%;
+  border-left: 2px solid rgba(162, 95, 75, 0.5);
+  border-bottom: 2px solid rgba(162, 95, 75, 0.5);
+}

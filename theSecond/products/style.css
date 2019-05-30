@@ -1,0 +1,312 @@
+#header {
+  margin-top: 60px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 2.6em;
+  font-weight: lighter;
+  margin-bottom: 25px;
+}
+
+#header p {
+  color: rgba(29, 31, 46, 0.7);
+  font-size: 1.3em;
+  margin-bottom: 50px;
+}
+
+#header .links {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+
+#header .links a {
+  flex: 0 0 18%;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid rgba(162, 95, 75, 0.6);
+  color: rgba(162, 95, 75, 0.4);
+  font-size: 1em;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  transition: 200ms all linear;
+}
+
+#header .links .bold {
+  color: rgba(162, 95, 75, 1);
+}
+
+#header .links a:hover {
+  color: rgba(162, 95, 75, 1);
+  border-color: rgba(162, 95, 75, 1);
+}
+
+/* article */
+
+#article {
+  height: 430px;
+}
+
+#article .row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#article .row .col1,
+#article .row .col2 {
+  flex: 0 0 50%;
+}
+
+#article .row .col1 {
+  background-image: url("../img/bar1.jpg");
+  background-size: cover;
+  background-position-x: 50%;
+  width: 100%;
+}
+
+#article .row .col2 {
+  display: flex;
+}
+
+#article .row .col2 .text {
+  width: 80%;
+  align-self: center;
+}
+
+#article .row .col2 .text .label {
+  color: rgba(29, 31, 46, 0.7);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+  margin-bottom: 18px;
+}
+
+#article .row .col2 .text h2 {
+  font-size: 2.3em;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+#article .row .col2 .text p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  color: rgba(29, 31, 46, 0.7);
+  margin-bottom: 23px;
+}
+
+#article .row .col2 .text button {
+  border: none;
+  background-color: rgba(29, 31, 46, 0.8);
+  font-size: 0.75em;
+  font-weight: bold;
+  padding: 20px 0;
+  color: #fff;
+  text-transform: uppercase;
+  width: 50%;
+  transition: 200ms all linear;
+}
+
+#article .row .col2 .text button:hover {
+  background-color: rgba(29, 31, 46, 1);
+}
+
+/* cups */
+
+#cups {
+  margin-top: 170px;
+}
+
+#cups .row {
+  width: 100%;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#cups .row .col {
+  flex: 0 0 30%;
+  height: 500px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#cups .row .col .img {
+  flex: 1 0 100%;
+  height: 80%;
+}
+
+#cups .row .col .img1 {
+  background-image: url("../img/coffee1.jpeg");
+  background-size: cover;
+  background-position-x: 42%;
+}
+
+#cups .row .col .img2 {
+  background-image: url("../img/coffee2.jpeg");
+  background-size: cover;
+  background-position-x: 42%;
+}
+
+#cups .row .col .img3 {
+  background-image: url("../img/coffee3.jpeg");
+  background-size: cover;
+  background-position-x: 42%;
+}
+
+#cups .row .col .img4 {
+  background-image: url("../img/coffee4.jpeg");
+  background-size: cover;
+  background-position-x: 42%;
+}
+
+#cups .row .col .img5 {
+  background-image: url("../img/coffee5.jpeg");
+  background-size: cover;
+  background-position-x: 42%;
+}
+
+#cups .row .col .img5 {
+  background-image: url("../img/coffee5.jpg");
+  background-size: cover;
+  background-position-x: 42%;
+}
+
+#cups .row .col .img6 {
+  background-image: url("../img/coffee6.jpg");
+  background-size: cover;
+  background-position-x: 42%;
+}
+
+#cups .row .col .img7 {
+  background-image: url("../img/coffee7.jpg");
+  background-size: cover;
+  background-position-x: 42%;
+}
+
+#cups .row .col .img8 {
+  background-image: url("../img/coffee8.jpg");
+  background-size: cover;
+  background-position-x: 42%;
+}
+
+#cups .row .col .img9 {
+  background-image: url("../img/coffee9.jpg");
+  background-size: cover;
+  background-position-x: 42%;
+}
+
+#cups .row .col .img10 {
+  background-image: url("../img/coffee1.jpeg");
+  background-size: cover;
+  background-position-x: 42%;
+}
+
+#cups .row .col .img11 {
+  background-image: url("../img/coffee2.jpeg");
+  background-size: cover;
+  background-position-x: 42%;
+}
+
+#cups .row .col .img12 {
+  background-image: url("../img/coffee3.jpeg");
+  background-size: cover;
+  background-position-x: 42%;
+}
+
+#cups .row .col .img13 {
+  background-image: url("../img/coffee4.jpeg");
+  background-size: cover;
+  background-position-x: 42%;
+}
+
+#cups .row .col .img14 {
+  background-image: url("../img/coffee5.jpg");
+  background-size: cover;
+  background-position-x: 42%;
+}
+
+#cups .row .col .img15 {
+  background-image: url("../img/coffee6.jpg");
+  background-size: cover;
+  background-position-x: 42%;
+}
+
+#cups .row .col .text {
+  flex: 1 0 100%;
+  color: #1d1f2e;
+  text-align: center;
+}
+
+#cups .row .col .text h4 {
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-weight: lighter;
+  font-size: 1.3em;
+}
+
+#cups .row .col .text .price {
+  font-size: 1.1em;
+  color: #a25f4b;
+  margin-top: 20px;
+}
+
+#cups .row .col .text .price span {
+  font-size: 1em;
+  color: #aaa;
+  text-decoration: line-through;
+}
+
+/* updates */
+
+#updates {
+  height: 400px;
+  margin-top: 100px;
+  background-color: #1d1f2e;
+  display: flex;
+}
+
+#updates .content {
+  height: 40%;
+  flex: 0 0 100%;
+  align-self: center;
+}
+
+#updates .content h3 {
+  color: #fff;
+  font-size: 3.5em;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+form input {
+  flex: 0 1 70%;
+  background-color: #1d1f2e;
+  color: #fff;
+  padding: 20px;
+  border: 1px solid rgba (255, 255, 255, 0.7);
+}
+
+form button {
+  flex: 0 1 27%;
+  background-color: #fff;
+  border: none;
+  color: rgba(29, 31, 46, 0.7);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.7em;
+  letter-spacing: 0.1em;
+}

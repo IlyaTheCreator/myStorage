@@ -1,0 +1,228 @@
+#header,
+#text {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+#header h1,
+#text h1 {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 2.6em;
+  font-weight: lighter;
+  margin-bottom: 25px;
+}
+
+#header p,
+#text p {
+  width: 60%;
+  margin: 0 auto;
+  color: rgba(29, 31, 46, 0.7);
+  font-size: 1.3em;
+  margin-bottom: 30px;
+  line-height: 2em;
+}
+
+/* bg-only */
+
+#bg-only,
+#bg-onlyx {
+  margin: 100px 0 50px 0;
+  height: 420px;
+  background-image: url("../img/break.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-onlyx {
+  background-attachment: fixed;
+  background-image: url("../img/bar1.jpg") !important;
+}
+
+/* feature */
+
+#feature {
+  display: flex;
+}
+
+#feature a,
+#feature p {
+  align-self: center;
+  color: rgba(29, 31, 46, 0.7);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+}
+
+/* blind-text */
+
+#blind-text {
+  margin: 10px 0 100px 0;
+}
+
+#blind-text .content {
+  width: 60%;
+}
+
+#blind-text .content h2 {
+  font-size: 2.3em;
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+#blind-text .content p {
+  color: rgba(29, 31, 46, 0.7);
+  font-size: 1.2em;
+  text-align: center;
+  padding: 0 10px;
+  line-height: 1.5em;
+  margin-bottom: 30px;
+}
+
+/* layout */
+
+#layout .row {
+  margin: 0 auto;
+  width: 93%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#layout .row .col {
+  height: 440px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#layout .row .rev {
+  margin-top: 100px;
+}
+
+#layout .row .rev .text p {
+  padding-right: 30px;
+}
+
+#layout .row .col .img {
+  flex: 0 0 48%;
+  background-image: url("../img/bar1.jpg");
+  background-size: cover;
+  background-position-x: 40%;
+}
+
+#layout .row .rev .img {
+  flex: 0 0 50%;
+  background-image: url("../img/people2.jpg");
+  background-size: cover;
+  order: 2;
+}
+
+#layout .row .col .text {
+  flex: 0 0 50%;
+  display: flex;
+}
+
+#layout .row .col .text .inside {
+  flex: 0 0 100%;
+  height: 75%;
+  align-self: center;
+  padding: 20px;
+}
+
+#layout .row .col .text .inside h3 {
+  font-size: 2em;
+  font-weight: lighter;
+  margin-bottom: 1.7em;
+}
+
+#layout .row .col .text .inside p {
+  font-size: 1.15em;
+  line-height: 1.5em;
+}
+
+/* people */
+
+#people {
+  height: 500px;
+  margin-top: 60px;
+}
+
+#people .row {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#people .row .col {
+  flex: 0 0 28%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#people .row .col .img {
+  flex: 0 0 100%;
+  height: 80%;
+}
+
+#people .row .col .img1 {
+  background-image: url("../img/people1.jpg");
+  background-size: cover;
+}
+
+#people .row .col .img2 {
+  background-image: url("../img/people2.jpg");
+  background-size: cover;
+  background-position-x: 50%;
+}
+
+#people .row .col .img3 {
+  background-image: url("../img/people3.jpg");
+  background-size: cover;
+}
+
+#people .row .col .text {
+  flex: 0 0 100%;
+  height: 20%;
+}
+
+#people .row .col .text h3 {
+  font-size: 1.4em;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* text */
+
+#text {
+  margin-bottom: 200px;
+}
+
+#text h1 {
+  font-size: 1.9em;
+  font-weight: lighter;
+}
+
+#text p {
+  line-height: 1.8em;
+}
+
+#text .date {
+  color: rgba(29, 31, 46, 0.7);
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+}
+
+/* for margin in section-separators */
+
+.big-margin {
+  margin: 200px 0 120px 0;
+}

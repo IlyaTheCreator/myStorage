@@ -1,0 +1,124 @@
+/* media */
+
+@media screen and (max-width: 768px) {
+  section#header {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  nav .nav-menu {
+    display: none;
+  }
+
+  nav .card-button i,
+  nav .card-button p,
+  nav .card-button div {
+    margin: 0 10px;
+  }
+
+  nav .right .card-button {
+    flex: 1 1 90%;
+    justify-content: flex-end;
+  }
+
+  nav .right fa-align-justify {
+    flex: 1 1 10%;
+  }
+
+  .fa-align-justify::before {
+    display: inline-block;
+  }
+
+  #updates .content h3 {
+    font-weight: lighter;
+  }
+
+  #updates .content form {
+    width: 70%;
+  }
+
+  #footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  #footer .row .col1,
+  #footer .row .col2,
+  #footer .row .col3,
+  #footer .row .col4 {
+    flex: 0 0 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #footer .row .col1 p,
+  #footer .row .col1 .copy {
+    width: 100%;
+    text-align: left;
+    margin: 20px 0;
+    position: static;
+  }
+
+  #footer .row .col1 .logo {
+    width: 20%;
+    margin: 20px auto;
+  }
+
+  /* ------ */
+}
+
+@media screen and (max-width: 425px) {
+  nav {
+    padding-right: 0;
+  }
+
+  nav .logo {
+    font-size: 1.1em;
+  }
+
+  #updates {
+    width: 100%;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #updates .content {
+    height: 50%;
+  }
+
+  #updates .content h3 {
+    font-size: 2.3em;
+  }
+
+  #updates .content form {
+    flex-wrap: wrap;
+  }
+
+  #updates .content form input,
+  #updates .content form button {
+    display: block;
+    flex: 0 0 100%;
+  }
+
+  #updates .content form button {
+    padding: 20px 0 20px 0;
+    margin-top: 10px;
+  }
+
+  #footer .row .col1 .logo {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  #footer .row .col1 p {
+    width: 90%;
+  }
+
+  nav .logo {
+    font-size: 0.8em;
+  }
+}

@@ -1,0 +1,134 @@
+@media screen and (max-width: 768px) {
+  #two {
+    height: 1500px;
+  }
+
+  #two .row {
+    flex-wrap: wrap;
+  }
+
+  #two .row .col {
+    flex: 0 0 90%;
+    height: 600px;
+    text-align: center;
+  }
+
+  #two .row .col .text p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #blog {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  #blog .left-col,
+  #blog .right-col {
+    flex: 0 0 98%;
+  }
+
+  #blog .left-col .wrapper .col {
+    flex-wrap: wrap;
+    height: 800px;
+  }
+
+  #blog .left-col .wrapper .col .img,
+  #blog .left-col .wrapper .col .text {
+    flex: 0 0 98%;
+  }
+
+  #blog .left-col .wrapper .col .img {
+    height: 60%;
+  }
+
+  #blog .left-col .wrapper .col .img .img1,
+  #blog .left-col .wrapper .col .img .img2,
+  #blog .left-col .wrapper .col .img .img3,
+  #blog .left-col .wrapper .col .img .img4,
+  #blog .left-col .wrapper .col .img .img5 {
+    height: 100%;
+  }
+
+  #blog .left-col .wrapper .col .text {
+    text-align: center;
+    display: flex;
+    height: 40%;
+  }
+
+  #blog .left-col .wrapper .col .text h3 {
+    font-size: 2em;
+  }
+
+  #blog .left-col .wrapper .col .text p {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #blog .right-col {
+    height: 1200px;
+  }
+
+  #blog .right-col .wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #blog .right-col .wrapper .col1 h3,
+  #blog .right-col .wrapper .col2 h3 {
+    font-size: 1.9em;
+  }
+
+  #blog .right-col .wrapper .col1 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #blog .right-col .wrapper .col2 .authors {
+    width: 70%;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #two {
+    /* height: 1500px; */
+  }
+
+  #two .row {
+    width: 100%;
+  }
+
+  #two .row .col {
+    height: 500px;
+    flex: 0 0 100%;
+  }
+
+  #two .row .col .text p {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  #blog {
+    margin-top: 0;
+  }
+
+  #blog .left-col .wrapper .col .img1,
+  #blog .left-col .wrapper .col .img2 {
+    background-position-x: 40%;
+  }
+
+  #blog .left-col .wrapper .col .img4 {
+    background-position-x: 60%;
+  }
+
+  #blog .left-col .wrapper .col .img5 {
+    background-position-x: 80%;
+  }
+
+  #quote p {
+    padding: 0;
+    font-size: 1.4em;
+    border: none;
+    border-bottom: 2px solid #a25f4b;
+  }
+}

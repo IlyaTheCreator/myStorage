@@ -1,0 +1,88 @@
+@media screen and (max-width: 1024px) {
+  #header .links {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #header .links {
+    width: 100%;
+  }
+
+  /* -------- */
+
+  #article {
+    height: 880px;
+  }
+
+  #article .row {
+    flex-wrap: wrap;
+  }
+
+  #article .row .col1,
+  #article .row .col2 {
+    flex: 0 0 100%;
+  }
+
+  #article .row .col1 {
+    height: 55%;
+  }
+
+  #article .row .col2 {
+    align-self: flex-start;
+    height: 35%;
+    text-align: center;
+  }
+
+  /* ---------- */
+
+  #cups .row .col {
+    flex: 0 0 45%;
+  }
+
+  #cups .row .col .text .price {
+    margin-top: 10px;
+  }
+
+  #cups .row .col .text {
+    padding-bottom: 2px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #header .links {
+    flex-wrap: wrap;
+  }
+
+  #header .links a {
+    flex: 0 0 92%;
+    margin-bottom: 10px;
+  }
+
+  /* -------- */
+
+  #article {
+    height: 1000px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #article .row .col1 {
+    height: 50%;
+  }
+
+  #article .row .col2 {
+    height: 50;
+  }
+
+  /* ---------- */
+
+  #cups {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #cups .row .col {
+    flex: 0 0 100%;
+  }
+}

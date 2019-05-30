@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700");
+
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Karla";
+}
+
+/* navigation */
+
+nav {
+  display: flex;
+  padding: 0 30px;
+}
+
+nav .left {
+  flex: 1 1 30%;
+  display: flex;
+}
+
+nav .right {
+  flex: 1 1 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav .right .card-button {
+  flex: 0 1 20%;
+  justify-content: center;
+}
+
+nav .right .fa-align-justify {
+  flex: 1 1 10%;
+  text-align: right;
+  padding-right: 15px;
+  font-size: 1.5em;
+}
+
+section {
+  margin: 0 40px;
+}
+
+.logo {
+  font-size: 1.8em;
+  flex: 0 0 30%;
+  display: flex;
+}
+
+.logo h1 {
+  align-self: center;
+  flex: 0 0 100%;
+  text-align: left;
+}
+
+.nav-menu {
+  font-size: 12px;
+  flex: 0 0 80%;
+  display: flex;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: rgba(29, 31, 46, 0.7);
+  font-size: 15px;
+  align-self: center;
+  transition: 300ms all linear;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav-menu a:hover {
+  color: #000;
+}
+
+.card-button {
+  flex: 0 0 10%;
+  display: flex;
+  flex-direction: row;
+  color: #1d1f2e;
+  text-decoration: none;
+  margin: 30px 0;
+}
+
+.card-button i {
+  align-self: center;
+}
+
+.fa-align-justify {
+  display: none;
+  align-self: center;
+}
+
+.fa-align-justify::before {
+  display: none;
+}
+
+.card-button p {
+  align-self: center;
+  text-transform: uppercase;
+}
+
+.number-card {
+  display: inline;
+  align-self: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 50% 50%;
+  background-color: #1d1f2e;
+  color: #fff;
+  text-align: center;
+}
+
+/* updates */
+
+#updates {
+  height: 400px;
+  margin-top: 100px;
+  background-color: #1d1f2e;
+  display: flex;
+}
+
+#updates .content {
+  height: 40%;
+  flex: 0 0 100%;
+  align-self: center;
+}
+
+#updates .content h3 {
+  color: #fff;
+  font-size: 3.5em;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+form input {
+  flex: 0 1 70%;
+  background-color: #1d1f2e;
+  color: #fff;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+form button {
+  flex: 0 1 27%;
+  background-color: #fff;
+  border: none;
+  color: rgba(29, 31, 46, 0.7);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.7em;
+  letter-spacing: 0.1em;
+}
+
+#footer {
+  display: flex;
+  margin-top: 50px;
+}
+
+#footer .row {
+  align-self: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .row .col1 {
+  flex: 0 0 30%;
+  position: relative;
+}
+
+#footer .row .col1 .logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  flex: 0 0 30%;
+}
+
+#footer .row p {
+  margin-top: 30px;
+  font-size: 1.1em;
+  color: rgba(29, 31, 46, 0.7);
+}
+
+#footer .row .col1 .copy {
+  position: absolute;
+  left: 0;
+  top: calc(100% - 30px);
+}
+
+#footer .row .col1 .logo {
+  flex: 0 0 100%;
+  text-align: center;
+}
+
+#footer .row .col2 {
+  flex: 0 0 15%;
+}
+
+#footer .row .col3 {
+  flex: 0 0 15%;
+}
+
+#footer .row .col4 {
+  flex: 0 0 30%;
+}
+
+#footer .row .label {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#footer .row a {
+  text-decoration: none;
+  color: #1d1f2e;
+  font-size: 1em;
+  display: block;
+  margin: 8px 0;
+}
+
+#footer .row .col4 .email {
+  margin-top: 50px;
+  font-size: 1.5em;
+  transition: 200ms color linear;
+}
+
+#footer .row .col4 .email:hover {
+  color: orange;
+}
