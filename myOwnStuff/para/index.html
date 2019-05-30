@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VanillaScroll</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <section>
+        <ul>
+            <li class="use-it" data-rate='1.5' data-direction='vertical'>Сл</li>
+            <li>о</li>
+            <li class="use-it" data-rate='-1.5' data-direction='vertical'>во</li>
+        </ul>
+    </section>
+    <span class="use-it" data-rateX='2' data-rateY='1' data-direction='horizontal'></span>
+    <section></section>
+
+<!--    
+1. add event listener 'scroll' on window object
+2. determine which item in your HTML should be chosen to put paralax effect onto
+3. add class to the element you've chosen above
+4. choose the element via its class and contain it in a variable
+5. determine which CSS property of the element you want to target with your JS (you can already do it)
+// if we want the parallax effect, we have to change the transform property
+6. find a way to determine the amount of pexels that the scrollbar has currently scrolled and somehow
+    apply a simple mathematic formula for determining the rate at which the element will scroll
+    .---- | window.pageYOffset | ----.
+7. create a variable which binds the window.pageYOffset
+8. add the class which you've used above to another element
+9. if there are several chosen elements, you have to iterate through them. The for loop is pretyUseful here
+10. setting up stuff for the 'for' loop: variables index(=0) and lenght(=target.length)
+11. inside the loop, use let for defining a variable which will contain information about amount of pexels
+    that your chosen elements will be parallaxed. If we want to make it dinamic, instead of defining the
+    scroll rate above the 'for' loop, you can do this through data HTML attribute. This attribute isWritten
+    in HTML like this:
+                        <sometag data-nameofyourdata="value">
+    in order to choose it in JS, you have to choose the dataset object and put the value which is defined in
+    HTML after a dot:
+                        let someV = yourElementInJS.dataset.value
+-->    
+
+    <script>
+    
+        window.addEventListener('scroll', (e) => {
+            const words = document.
+        })
+
+    </script>
+
+</body>
+</html>

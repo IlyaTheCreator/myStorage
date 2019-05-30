@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moving boxes</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+    <div class="simple"><p class="top">Когда этот текст будет пролистан, магия произойдет!<p></div>
+    <section>
+        <div class="container">
+            <div class="to-move" data-rateX="0" data-rateY="-2"><p>1</p></div>
+            <div class="to-move" data-rateX="0" data-rateY="0"><p>2</p></div>
+            <div class="to-move" data-rateX="0" data-rateY="2"><p>3</p></div>
+        </div>
+    </section>
+    <section></section>
+
+    <script>
+    
+        window.addEventListener('scroll', (e) => {
+            
+            const target = document.querySelectorAll('.to-move')
+
+            let index = 0, length = target.length
+            
+            if(window.pageYOffset >= 130) {
+               window.pageYOffset = 90
+            
+                for(index; index < length; index++) {
+
+                    let rateY = window.pageYOffset * target[index].dataset.ratey
+                    let rateX = window.pageYOffset * target[index].dataset.ratex
+                
+                    target[index].style.transform = 'translate3d('+rateX+'px, '+rateY+'px, 0px)' 
+                }
+
+            }
+            
+        })    
+    </script>
+
+</body>
+</html>

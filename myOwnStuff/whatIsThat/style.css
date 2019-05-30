@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  height: 300px;
+  flex: 0 0 100%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  height: 50px;
+  flex: 0 0 15%;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: lightblue;
+  border: none;
+  margin: 10px;
+}
