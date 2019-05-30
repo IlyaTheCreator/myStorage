@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpeg')
+}
+
+form {
+    background-color: #92b4f4;
+    border: 3px solid #4472ca;
+    width: 30%;
+    margin: 160px  auto;
+    padding: 50px 20px;
+    border-radius: 15px;
+    height: 450px;
+    color: #342e37;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input, textarea {
+    border-radius: 4px;
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+label {
+    margin-top: 20px;
+    display: block;
+    padding-left: 120px;
+}
+
+button {
+    margin: 50px auto;
+    display: block;
+    font-size: 25px;
+} 
+

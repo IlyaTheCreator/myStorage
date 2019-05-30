@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  background: url(./bg.jpg), no-repeat;
+  opacity: 0.9;
+  background-size: cover;
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+}
+
+.text h2 {
+  font-size: 45px;
+  margin: 20px 0 0 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.text .wrapper {
+  width: 100%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.text #intro-text {
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 37%;
+          flex: 0 1 37%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.text #intro-text h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.text #intro-text p {
+  width: 90%;
+  font-size: 20px;
+}
+
+.text .right {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 55%;
+          flex: 0 0 55%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.text .right img {
+  width: 100%;
+  height: 100%;
+  float: right;
+}
+
+.intro-appear {
+  opacity: 1 !important;
+  -webkit-transform: translateY(0px) !important;
+          transform: translateY(0px) !important;
+}
+/*# sourceMappingURL=style.css.map */

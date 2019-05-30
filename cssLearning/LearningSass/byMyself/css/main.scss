@@ -1,0 +1,40 @@
+$colors: (
+    niceColor: #ffb200,
+    superColor: #adc116
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+
+@mixin centerize {
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+    margin: 0; padding: 0;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    div.fif {
+        flex: 0 0 50%;
+        background-color: color(niceColor);
+    }
+
+    div.hund {
+        flex: 0 0 100%;
+        background-color: color(superColor);
+    }
+
+    p {
+        @include centerize;
+    }
+}

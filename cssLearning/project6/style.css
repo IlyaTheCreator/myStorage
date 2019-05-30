@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: merelyText;
+  src: url("fonts/Josefin_Sans/JosefinSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: big;
+  src: url("fonts/Righteous/Righteous-Regular.ttf");
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(#f2f2f2, #fff);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: big;
+  font-size: 500%;
+  transition: 100ms all linear;
+  color: #415161;
+}
+
+h1:hover {
+  text-shadow: 0 3.5px 10px #8d96a0;
+}
+
+p {
+  font-family: merelyText;
+  font-size: 120%;
+}
+
+#first,
+#second {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+  border-bottom: 10px solid #000;
+}
+
+#second {
+  padding-bottom: 0;
+}
+
+#first .top h1 {
+  text-align: center;
+}
+
+#first .container {
+  display: flex;
+  flex-direction: column;
+  background-color: palevioletred;
+  height: 500px;
+}
+
+.first,
+.second,
+.third {
+  display: flex;
+  flex-basis: 33.3%;
+}
+
+.first {
+  align-items: flex-start;
+}
+
+.second {
+  align-items: center;
+  justify-content: center;
+}
+
+.third {
+  align-items: flex-end;
+}
+
+.tooth {
+  flex-basis: 16.66666666666667%;
+  height: 60%;
+  background-color: #fff;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  border-bottom: none;
+}
+
+.first .tooth {
+  border-top: 3px solid palevioletred;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.second .tongue {
+  width: 80%;
+  height: 100%;
+  border-bottom-left-radius: 300px;
+  border-bottom-right-radius: 300px;
+  background-color: #8c1515;
+}
+
+.third .tooth {
+  border-bottom: 3px solid palevioletred;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* ________________________________________ */
+
+#second .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
+
+.col {
+  flex-basis: 20%;
+  flex-shrink: 0;
+
+  height: 150px;
+  background-color: #8c1515;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 200%;
+  border-radius: 5px;
+}

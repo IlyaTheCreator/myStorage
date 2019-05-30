@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:800|Poppins:500");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #fcfcfe;
+  font-family: "Poppins";
+}
+
+nav {
+  height: 80%;
+  width: 100%;
+  background: url("img/bg-nav.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+nav #brand {
+  /* align-self: center; */
+  margin: 0 auto;
+  text-decoration: none;
+  font-size: 800%;
+  color: #6c7382;
+  letter-spacing: 3px;
+}
+
+/* _________________________________________________ */
+
+#nav-container {
+  background-color: #e3d0d8;
+  overflow: auto;
+}
+
+#nav-title {
+  text-align: center;
+  font-size: 220%;
+  text-decoration: underline;
+  margin: 20px;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 125%;
+  border-radius: 5px;
+}
+
+.nav li {
+  float: left;
+  display: inline-block;
+  margin: 0 15px;
+  text-align: center;
+  padding: 15px;
+}
+
+.nav:hover {
+  background-color: #91858a;
+}
+
+.nav li:hover {
+  background-color: #000;
+  color: #a9a8b4;
+}
+
+.nav a:hover {
+  color: #fff;
+}
+
+/* ___________________________________________________ */
+
+#body p,
+blockquote {
+  font-size: 150%;
+  text-align: justify;
+  line-height: 25px;
+  width: 70%;
+  margin: 50px auto;
+  line-height: 33px;
+}
+
+blockquote {
+  width: 35%;
+  padding: 30px;
+  background-color: #d2d2e1;
+  border-radius: 10px;
+  margin: 40px auto;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+blockquote em {
+  color: #6b5c6a;
+}
+
+/* ________________________________________________________ */
+
+.row {
+  margin: 0 10px;
+  width: 100%;
+  height: 50%;
+  border-top: 1px solid #000;
+  display: flex;
+  justify-content: space-around;
+}
+
+.col {
+  align-self: center;
+  width: 20%;
+  height: 90%;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #bfbfcd;
+  font-size: 130%;
+  display: flex;
+  justify-content: center;
+}
+
+.col h3 {
+  align-self: center;
+}
+
+.full-col {
+  padding: 50px;
+  font-size: 150%;
+  text-align: center;
+  text-decoration: overline;
+}

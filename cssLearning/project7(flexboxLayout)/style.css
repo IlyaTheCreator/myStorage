@@ -1,0 +1,356 @@
+/* Preparations */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: normal;
+  src: url("fonts/Josefin_Sans/JosefinSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: big;
+  src: url("fonts/Righteous/Righteous-Regular.ttf");
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: normal;
+}
+
+/* top-content */
+
+#top-content {
+  width: 100%;
+  height: 940px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background: url("img/top-bg.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.nav {
+  flex: 0 1 100%;
+  display: flex;
+  align-self: flex-start;
+  flex-direction: row;
+}
+
+.content {
+  align-self: center;
+  flex: 1 0 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content h1 {
+  text-align: center;
+  font-size: 500%;
+  padding: 200px 200px 0 200px;
+  font-family: big;
+}
+
+.content h1 span {
+  color: #a0b9e8;
+}
+
+.content p a {
+  text-decoration: underline;
+  color: #fff;
+  transition: 170ms color linear;
+}
+
+.content p {
+  text-align: center;
+  font-size: 200%;
+  padding-top: 100px;
+}
+
+.logo {
+  flex-basis: 50%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  font-size: 500%;
+  height: 100px;
+}
+
+.logo i {
+  margin-left: 20px;
+  font-size: 280%;
+}
+
+.links {
+  flex-basis: 50%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: flex-end;
+  height: 100px;
+}
+
+.links a {
+  font-size: 200%;
+  text-decoration: none;
+  align-self: center;
+  color: #fff;
+  margin: 0 20px;
+  transition: 170ms color linear;
+}
+
+.links a:hover,
+.content p a:hover {
+  color: #07a0c3;
+}
+
+/* This is what I can element */
+.offset {
+  background-color: #000;
+  width: 100%;
+  padding-left: 100px;
+  font-family: big;
+  font-size: 300%;
+  color: #fff;
+}
+/* Can1 */
+
+#can1 {
+  background: linear-gradient(#000, #657ed4);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 400px;
+}
+
+.col {
+  flex-basis: 23%;
+  flex-shrink: 0;
+  flex-grow: 0;
+  height: 400px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.col h3 {
+  align-self: center;
+  color: #fbfbff;
+  font-size: 200%;
+}
+
+.col p {
+  padding-top: 20px;
+  font-size: 180%;
+  color: #fff;
+  text-align: center;
+}
+
+/* can2 */
+
+#can2 {
+  width: 100%;
+  height: 1000px;
+  background: linear-gradient(#657ed4, #dfaeb4);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.can2-content {
+  flex-basis: 33.3%;
+  display: flex;
+}
+
+.can2-content .col1 {
+  flex-basis: 50%;
+}
+
+.can2-content .col2 {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.can2-content .col3 {
+  flex-basis: 70%;
+}
+
+.can2-content .col4 {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.can2-content .col5 {
+  flex-basis: 20%;
+}
+
+.can2-content .col6 {
+  flex-basis: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.col1,
+.col3,
+.col5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.round {
+  width: 260px;
+  height: 260px;
+  background-color: #eacbd2;
+  border-radius: 50% 50%;
+  align-self: center;
+}
+
+.round1 {
+  background: url("img/elephant.jpg") 50% 50%;
+  background-size: cover;
+}
+
+.round2 {
+  background: url("img/koala.jpg") 50% 50%;
+  background-size: cover;
+}
+
+.round3 {
+  background: url("img/pigeon.jpg") 50% 50%;
+  background-size: cover;
+}
+
+.can2-content .col1 h3,
+.can2-content .col3 h3,
+.can2-content .col5 h3 {
+  height: 20%;
+  text-align: center;
+  font-size: 200%;
+  flex-basis: 100%;
+  align-self: flex-start;
+}
+
+.can2-content .col1 h3,
+.can2-content .col3 h3,
+.can2-content .col5 p {
+  margin-top: 20px;
+}
+
+.can2-content .col1 p,
+.can2-content .col3 p,
+.can2-content .col5 p {
+  height: 80%;
+  font-size: 150%;
+  flex-basis: 100%;
+  align-self: center;
+  text-align: justify;
+  padding: 10px;
+}
+
+.can2-content .col1 h3.ex,
+.can2-content .col3 h3.ex {
+  font-size: 300%;
+}
+
+/* can3 */
+
+#can3 {
+  width: 100%;
+  height: 900px;
+  background: linear-gradient(#657ed4, #dfaeb4);
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.col-img1 {
+  background: url("img/left.jpg") 50% 50%, no-repeat;
+  background-size: cover;
+  height: 100%;
+  flex-basis: 50%;
+  display: flex;
+}
+
+.col-img2 {
+  height: 100%;
+  background: url("img/right.jpg") 50% 50%, no-repeat;
+  background-size: cover;
+  flex-basis: 50%;
+  display: flex;
+}
+
+.col-img1 h3,
+.col-img2 h3 {
+  align-self: center;
+  text-align: center;
+  flex-basis: 100%;
+  font-size: 600%;
+}
+
+.col-img1 h3 {
+  color: #fff;
+  align-self: center;
+}
+
+/* footer */
+
+#footer {
+  width: 100%;
+  height: 200px;
+  background-color: #000;
+  color: #fff;
+}
+
+#footer .content {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+#footer .content .title {
+  flex: 1 0 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#footer .content .title h3 {
+  align-self: center;
+  font-size: 250%;
+}
+
+#footer .content .social {
+  flex: 1 0 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#footer .content .social a {
+  color: #fff;
+  font-size: 300%;
+  align-self: center;
+  transition: 200ms color linear;
+}
+
+#footer .content .social a:hover {
+  color: #07a0c3;
+}
+
+/* Something below */
+
+#the_lowest {
+  text-align: center;
+  height: 20px;
+  width: 100%;
+  background-color: grey;
+}

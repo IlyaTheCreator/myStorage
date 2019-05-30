@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:800|Poppins:500");
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.cardp {
+  height: 300px;
+  width: 255px;
+  display: block;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  text-decoration: none;
+  color: #000;
+  transition: 250ms box-shadow ease-in-out;
+  margin: 10px auto;
+}
+
+.cardp:hover {
+  box-shadow: 5px 5px 0 #333;
+}
+
+.cardp:hover .cardp-title {
+  text-decoration: underline;
+}
+
+.cardp-text {
+  padding: 10px;
+}
+
+.cardp-content {
+  padding: 10px 0 15px;
+  font-size: 13px;
+}
+
+.cardp-title {
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.card {
+  width: 225px;
+  height: 300px;
+  border: 1px solid #000;
+  margin: 100px auto;
+  overflow: hidden;
+  font-family: "Poppins";
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+
+.img {
+  height: 150px;
+  width: 255px;
+  background-image: url("img/man.jpeg");
+  background-size: cover;
+  background-position-y: center;
+  margin-bottom: 0;
+}
+
+.card-content {
+  padding-top: 0;
+}
+
+.card-content h2 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 220%;
+  margin: 0 auto;
+}
+
+.card-text {
+  margin: 7px;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 7px 15px #aaa;
+}
+
+.card:hover h2 {
+  text-decoration: underline;
+}
